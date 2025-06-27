@@ -4,21 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
 <body>
     <div class="container">
       <h1>An AI Poem Generator</h1>
-      <form>
+      <form id="poem-enquiry-form">
          <input type="text" placeholder="Enter key word..." autofocus required autocomplete="off" class="user-input" />
          <button class="submit-button">Submit</button>
       </form>
 
-      <div class="poem">Lorem ipsum dolor sit amet,
-				<br/>
-        consectetur adipiscing elit,
-      </div>
+      <div class="poem" id="poem"></div>
 
       <footer>
          <a href="https://github.com/Sophie-Ndobe" target="_blank">Sophie Ndobe</a>
