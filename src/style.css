@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1629196914168-3a2652305f9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #272044;
+}
+
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 20px 60px rgba(35, 35, 35, 0.5);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #7851a9;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #272044;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 800px;
+}
+
+.user-input{
+    width: 80%;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 14px 24px;
+    border-radius: 50px;
+    background: #e6cffc;
+    border: none;
+}
+
+.submit-button {
+    margin-left: 20px;
+    background-color: #7851a9;
+    color: white;
+    font-size: 16px;
+    padding: 5px 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: #dda0dd;
+    color: black;
+}
+ .poem {
+    background-color: white ;
+    margin: 30px auto;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 30px;
+    box-shadow: 0px 20px 60px rgba(35, 35, 35, 0.5);
+    border-radius: 5px;
+    color: #272044;
+ }
