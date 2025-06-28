@@ -14,12 +14,16 @@
 <body>
     <div class="container">
       <h1>An AI Poem Generator</h1>
-      <form id="poem-enquiry-form">
-         <input type="text" placeholder="Enter key word..." autofocus required autocomplete="off" class="user-input" id="user-input"/>
-         <button class="submit-button">Submit</button>
-      </form>
 
-      <div class="poem" id="poem"></div>
+      <div class="form-container">
+        <form id="poem-enquiry-form">
+          <input type="text" placeholder="Enter the topic for your poem..." autofocus required autocomplete="off" class="user-input" id="user-input"/>
+          <button class="submit-button">Submit</button>
+        </form>
+        <div class="hint"><em>i.e: Love, Joy, Travel</em></div>
+      </div>
+
+      <div class="poem hidden" id="poem"></div>
 
       <footer>
          <a href="https://github.com/Sophie-Ndobe" target="_blank">Sophie Ndobe</a>

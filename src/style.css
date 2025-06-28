@@ -15,11 +15,9 @@ h1 {
 }
 
 form {
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
+
     display: flex;
-    box-shadow: 0px 20px 60px rgba(35, 35, 35, 0.5);
+
 }
 
 a {
@@ -40,6 +38,14 @@ footer {
 .container {
     margin: 100px auto;
     max-width: 800px;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba(35, 35, 35, 0.5);
+
 }
 
 .user-input{
@@ -66,7 +72,17 @@ footer {
     background-color: #dda0dd;
     color: black;
 }
- .poem {
+
+.hint {
+    font-size: 12px;
+    line-height: 1.5;
+    opacity:0.5;
+    margin-left: 20px;
+    margin-top: 5px;
+
+
+}
+.poem {
     background-color: white ;
     margin: 30px auto;
     font-size: 16px;
@@ -77,6 +93,25 @@ footer {
     color: #272044;
  }
 
- .poem strong {
+.poem strong {
     color: #272044;
  }
+
+ .hidden {
+    display: none;
+ }
+
+ .generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
